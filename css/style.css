@@ -1,27 +1,49 @@
 *{
     font-size: 0;
 }
+#logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 900px;
+}
+.logo{
+    height: 800px;
+}
 .social-icons{
-	padding:30px;
+	padding:5px;
+    height: 50px;
 	background-color:#00506b;
     position: fixed; 
-    top: 200px; 
-    right: 200px;
+    margin-left: 1010px;
 }
 .social-icons a{
 	color:#fff;
-    line-height:30px;
     font-size:30px;
     margin: 0 5px;
     text-decoration:none;
+
 }
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+ 
+
 ul {
     list-style-type: none;
     margin: 0;
+    align-items: center;
     padding: 0;
     overflow: hidden;
     position: fixed;
-    top: 200px;
+    top: 50px;
+    margin-left: 550px;
  }
  li {
     float: left;
@@ -76,23 +98,26 @@ body{
 h1{
     font-size: 50px;
     color: #FFD700;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-left: 210px;
 }
 h2{
     font-size: 30px;
     color: rgb(252, 152, 3);
     text-shadow: 3px 3px black;
-    
+    text-align: center;
+    margin-left: 210px;
 }
 p{
     font-size: 15px;
     color: aliceblue;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-left: 18px;
+    margin-top: 80px;
 }
 #ordernow{
     width: 50px;
+
 }
 button{
     border: none;
@@ -101,8 +126,7 @@ button{
     font-size: 16px;
     display: inline-block;
     position: fixed;
-    top: 600px;
-    left: 700px;
+
 }
 button:hover{
     background-color: rgb(247, 251, 5);
@@ -110,23 +134,23 @@ button:hover{
 button:active{
     background-color: coral;
 }
-#rectangle{
+#left-rectangle{
     width: 200px;
     height: 300px;
     background: #FFD700;
     position: fixed;
     display: inline-block;
-    left: 350px;
-    box-shadow: 10px 10px
+    box-shadow: 10px 10px;
+    margin-right:800px;
 }
-#rectangleleft{
+#right-rectangle{
     width: 200px;
     height: 300px;
     background: #FFD700;
     position: fixed;
-    right: 450px;
     display: inline-block;
-    box-shadow: 10px 10px
+    box-shadow: 10px 10px;
+    margin-left:800px;
 }
 #container{
     position: relative;
